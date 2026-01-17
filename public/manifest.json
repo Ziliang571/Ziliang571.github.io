@@ -1,0 +1,44 @@
+{
+  "name": "无限 - 标签式网站收藏管理器",
+  "short_name": "无限",
+  "description": "美观实用的标签式网站收藏管理器，支持文件夹分类、标签过滤、批量管理、深色模式",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "lang": "zh-CN",
+  "screenshots": [
+    {
+      "src": "/screenshot-1.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "无限应用主界面"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "添加书签",
+      "short_name": "添加",
+      "description": "快速添加新书签",
+      "url": "/?action=add",
+      "icons": [{ "src": "/shortcut-add.png", "sizes": "96x96" }]
+    }
+  ]
+}
